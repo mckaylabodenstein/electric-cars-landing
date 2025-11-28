@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
-
+/*remember:always comment what you think and what needs to be done*/
 * {
   margin: 0;
   padding: 0;
@@ -157,9 +157,18 @@ p a {
   font-size: 14px;
 }
 
-/* SIMPLE RESPONSIVE CHANGE */
+/* SIMPLE RESPONSIVE, this was added with a small amount of support of ai*/
 @media (max-width: 700px) {
+  .middle-menu {
+    display: none;
+  }
+
   .actions-area {
-    margin-bottom: 64px;
+    margin-bottom: 60px;
+  }
+
+  .models-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+
